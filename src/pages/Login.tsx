@@ -6,7 +6,6 @@ import { Triangle, Shield } from "lucide-react";
 const roles = [
   { id: "admin" as const, label: "Admin Demo User", desc: "Full governance & procurement oversight", path: "/admin" },
   { id: "vendor" as const, label: "Vendor Demo User", desc: "Vendor portal & compliance submission", path: "/vendor" },
-  { id: "auditor" as const, label: "Auditor Demo User", desc: "Read-only audit & compliance review", path: "/admin/audit" },
 ];
 
 export default function Login() {
